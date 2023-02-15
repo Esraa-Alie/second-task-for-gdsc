@@ -1,0 +1,152 @@
+* {
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: wheat;
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: brown;
+  color: wheat;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  padding: 30px;
+}
+#nav-title {
+  width: 70%;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: cursive;
+}
+.nav-items a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 30px;
+}
+header {
+  background-image: url(headerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+#header-items {
+  text-align: center;
+  color: white;
+  padding: 250px 50px 30px 600px;
+}
+#Pizzeria-name {
+  font-size: 60px;
+  margin: 0;
+  font-family: serif;
+}
+#chefs-section {
+  background-color: wheat;
+  margin: 0;
+  width: 100%;
+}
+.chef img {
+  width: 300px;
+  height: 370px;
+  object-fit: cover;
+}
+#about-chefs {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#chif-title {
+  font-size: 50px;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+.chef {
+  flex: 1;
+  min-width: 340px;
+  max-width: 400px;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 55%);
+  border-radius: 10px;
+  background: #809473;
+  color: white;
+}
+.chef h4,
+.chef p {
+  margin: 10px;
+  word-break: break-word;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;}
+  
+  #about-us-title{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.owners{
+  width:350px;
+  height:350px;
+
+}
+#about-us{
+  margin: auto;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+}
+h4{
+  color: white;
+  text-align: center;
+}
+#vedio1{
+  width: 100%;
+  height: 600px;
+  margin: 30px;
+}
+#about-owners{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.o{
+  color: black;
+}
+footer{
+  background: rgb(165 42 42);
+  display: flex;
+  justify-content: center;
+  
+}
+#location{
+  margin: 10px;
+  border:  2px #809473;
+  border-radius: 5px;
+  height: auto;
+  display: block;
+}
+#telephone{
+  color: rgb(217, 224, 230);
+  padding-left: 90px
+}
+a{
+  color: #fff;
+}
